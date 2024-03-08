@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+    --primary: #ea40a4;
+    --business: #3a82ee;
+    --personal: var(--primary);
+    --light: #eee;
+    --dark: #313154;
+    --grey: #888;
+    --danger:#ff5b57;
+
+    --shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+    --business-glow: 0px 0px 4px rgba(58,130,238,0.75);
+    --personal-glow: 0px 0px 4px rgba(234,64,164,0.75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: initial;
+}
+
+body {
+    background: var(--light);
+    color: var(--dark);
+}
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+h3 {
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+h4 {
+    color: var(--grey);
+    font-size: .875rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.greeting .title {
+    display: flex;
+}
+
+.greeting .title input {
+    margin-left: .5rem;
+    flex: 1 1 0%;
+    max-width: 0;
+}
+
+.greeting .title
