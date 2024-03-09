@@ -8,7 +8,7 @@
   --dark: #313154;
   --grey: #888;
   --danger: #ff5b57;
-  --blue: #0bd3d3;
+  --blue: wheat;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
   --business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
@@ -33,7 +33,8 @@ button {
 
 body {
   background: url(Japanese-Cherry-Blossom-Scenery-AI-Generated-4K-Wallpaper-1.jpg);
-  background-position: 25%;
+  background-position: 30%;
+  background-size:cover;
   color: var(--dark);
 }
 
@@ -196,25 +197,28 @@ input:checked ~ .bubble::after {
 
 .todo-item .todo-content {
   flex: 1 1 0%;
+  overflow:hidden;
 }
 
 .todo-item .todo-content input {
   color: var(--dark);
-  font-size: 1.125rem;
+  font-size: .8rem;
 }
 
 .todo-item .actions{
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .todo-item .actions button {
-  display: block;
+  display: inline-block;
   padding: .5rem;
   border-radius: .25rem;
   color: #fff;
   cursor: pointer;
   transition: .2s ease-in-out;
+  
 }
 .todo-item .actions button:hover {
   opacity: .75;
