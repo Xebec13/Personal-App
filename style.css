@@ -202,7 +202,9 @@ input:checked ~ .bubble::after {
 
 .todo-item .todo-content input {
   color: var(--dark);
-  font-size: .8rem;
+  font-size: .6rem;
+  width: 90%;
+  text-wrap: balance;
 }
 
 .todo-item .actions{
