@@ -8,7 +8,7 @@
   --dark: #313154;
   --grey: #888;
   --danger: #ff5b57;
-
+  --blue: #0bd3d3;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
   --business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
@@ -32,7 +32,8 @@ button {
 }
 
 body {
-  background: var(--light);
+  background: url(Japanese-Cherry-Blossom-Scenery-AI-Generated-4K-Wallpaper-1.jpg);
+  background-position: 25%;
   color: var(--dark);
 }
 
@@ -44,16 +45,16 @@ section {
 }
 
 h3 {
-  color: var(--dark);
+  color: var(--blue);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 800;
   margin-bottom: 0.5rem;
 }
 
 h4 {
-  color: var(--grey);
+  color: var(--blue);
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 0.5rem;
 }
 
@@ -69,9 +70,9 @@ h4 {
 
 .greeting .title,
 .greeting .title input {
-  color: var(--dark);
+  color: var(--blue);
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .create-todo input[type="text"] {
@@ -159,7 +160,7 @@ input:checked ~ .bubble::after {
 .create-todo input[type="submit"]{
   display: block;
   width: 100%;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 1rem 1.5rem;
   color: #fff;
   background-color: var(--primary);
